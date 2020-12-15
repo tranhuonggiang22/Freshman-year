@@ -64,3 +64,12 @@ document.getElementById("back").onclick = function() {
         onResetSetInterval();
     }
 };
+
+//function myFunction() {
+//var element, name, arr;
+//element = document.getElementById("indexImageFocus");
+//name = "pagination";
+//arr = element.className.split(" ");
+//if (arr.indexOf(name) == -1) {
+//element.className += " " + name;
+//}
