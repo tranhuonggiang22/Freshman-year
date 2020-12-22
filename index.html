@@ -63,28 +63,40 @@
     <section class="about-container ">
         <div class="container ">
             <div class="col-md-3 " data-scroll-reveal="enter from the left after .5s ">
-                <div class="profile-image">
-                    <div class="wrapper-slider-image">
-                        <div id="back" class="btn">
-                            <img src="back.png" />
+                <div class="profile-image" class="container" style="padding-bottom: 40px;">
+                    <div class="slideshow-container">
+                        <div class="mySlides fade">
+                            <div class="numbertext"></div>
+                            <img src="Image_1.jpg">
                         </div>
-                        <div id="next" class="btn">
-                            <img src="next.png" />
+                        <div class="mySlides fade">
+                            <div class="numbertext"></div>
+                            <img src="Image_2 .jpg">
                         </div>
+                        <div class="mySlides fade">
+                            <div class="numbertext"></div>
+                            <img src="Image_3 .jpg">
+                        </div>
+                        <div class="mySlides fade">
+                            <div class="numbertext"></div>
+                            <img src="Image_4 .jpg">
+                        </div>
+                        <div class="mySlides fade">
+                            <div class="numbertext"></div>
+                            <img src="Image_5 .jpg">
+                        </div>
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
                     </div>
-                    <div id="image-render"></div>
-                    <div class="pagination">
-
-                        <a href="#">1</a>
-                        <a href="#">2</a>
-                        <a href="#">3</a>
-                        <a href="#">4</a>
-                        <a href="#">5</a>
-                        <a href="#">6</a>
-
+                    <div style="position:absolute; bottom: 0px;">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                        <span class="dot" onclick="currentSlide(4)"></span>
+                        <span class="dot" onclick="currentSlide(5)"></span>
                     </div>
+                    <!-- /.profile-photo -->
                 </div>
-                <!-- /.profile-photo -->
             </div>
             <div class="col-md-6 " data-scroll-reveal="enter from the right after .5s ">
                 <article class="profile-details section-box ">
@@ -99,7 +111,7 @@
                     <h2 class="title ">Contact Info</h2>
                     <address>
                             <ul class="address-line ">
-                                <li >60B Pham Huy Tuong</li>
+                                <li >60B Nguyen Huy Tuong</li>
                                 <li >0868603909</li>
                                 <li ><a href="https://myaccount.google.com/ ">Contact to work!</a></li>
                             </ul>
@@ -294,7 +306,8 @@
         </div>
         <!-- /.container -->
     </section>
-    <script language="javascript" src="precode.js"></script>
+    <script language="javascript" src="slideimage.js"></script>
+    <script language="javascript" src="automatic.js"></script>
 </body>
 
 </html>
